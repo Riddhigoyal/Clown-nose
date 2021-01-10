@@ -1,0 +1,19 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: blue;
+}
+
+Canvas{
+    border: 5px solid black;
+    animation-name: exam;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes exam{
+    from {box-shadow: 8px 8px 38px red;}
+    to {box-shadow: 8px 8px 38px blue;}
+}
